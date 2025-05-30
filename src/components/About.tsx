@@ -29,41 +29,49 @@ const About = () => {
     <section id="about" className="py-24 px-6">
       <div className="container mx-auto max-w-7xl">
         {/* Main About Section */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 animate-slide-in-up">
-            <h2 className="text-5xl font-bold text-gradient-blue mb-8">About Me</h2>
-            
-            <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
-              <p>
-                I'm a passionate full-stack developer with over{' '}
-                <span className="text-neon-cyan font-semibold">2 years</span> of experience 
-                crafting digital experiences that push the boundaries of what's possible on the web.
-              </p>
-              
-              <p>
-                My journey began with a fascination for{' '}
-                <span className="text-neon-blue font-semibold">artificial intelligence</span> and 
-                evolved into a love for creating seamless, intuitive interfaces that solve real-world problems.
-              </p>
-              
-              <p>
-                Beyond coding, I’m deeply curious about a range of fields{' '}
-                <span className="text-neon-purple font-semibold">from crypto mining, medical science, and spaceships to cybersecurity, ethical hacking, and cyber forensics</span>, 
-                I also enjoy contributing to open-source projects and mentoring aspiring developers.
-              </p>
-            </div>
+<div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+  <div className="space-y-6 animate-slide-in-up">
+    <h2 className="text-5xl font-bold text-gradient-blue mb-8">About Me</h2>
+    
+    <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
+      <p>
+        I'm a passionate Full Stack AI-native Developer based in Mumbai.  
+      </p>
+      
+      <p>
+        I specialize in building clean, responsive, and user-friendly websites and applications using modern technologies like{' '}
+        <span className="text-neon-cyan font-semibold">React, TypeScript, Tailwind CSS, and Bootstrap</span>.
+      </p>
+      
+      <p>
+        With a strong foundation in both frontend and basic backend development — including API integration and MongoDB — I create solutions that are both functional and scalable.  
+        I’m also skilled in <span className="text-neon-blue font-semibold">Web3 development</span>, working with smart contracts and blockchain integrations.
+      </p>
+      
+      <p>
+        I enjoy blending creativity with practical coding to deliver projects that solve real problems. I also use AI tools like{' '}
+        <span className="text-neon-purple font-semibold">ChatGPT, Lovable, Bolt, and Cursor AI</span> to work faster and smarter.
+      </p>
+      
+      <p>
+        When I’m not coding, I’m always eager to learn and innovate, exploring the latest trends in AI and Web3 technology.
+      </p>
+    </div>
+  </div>
+</div>
+
 
             <div className="grid grid-cols-3 gap-6 mt-8">
               <div className="glass-card p-4 text-center">
-                <div className="text-3xl font-bold text-neon-cyan">50+</div>
+                <div className="text-3xl font-bold text-neon-cyan">♾️</div>
                 <div className="text-gray-400">Projects</div>
               </div>
               <div className="glass-card p-4 text-center">
-                <div className="text-3xl font-bold text-neon-blue">2+</div>
+                <div className="text-3xl font-bold text-neon-blue">♾️</div>
                 <div className="text-gray-400">Years Experience</div>
               </div>
               <div className="glass-card p-4 text-center">
-                <div className="text-3xl font-bold text-neon-purple">100K+</div>
+                <div className="text-3xl font-bold text-neon-purple">♾️</div>
                 <div className="text-gray-400">Lines of Code</div>
               </div>
             </div>
