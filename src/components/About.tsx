@@ -99,7 +99,7 @@ const About = () => {
 
         {/* Timeline Section */}
         <div className="mb-20">
-          <h3 className="text-3xl font-bold text-gradient-cyan mb-12 text-center">Professional Journey</h3>
+{/*           <h3 className="text-3xl font-bold text-gradient-cyan mb-12 text-center">Professional Journey</h3>
           <div className="relative">
             <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-neon-blue to-neon-purple"></div>
             <div className="space-y-12">
@@ -119,7 +119,7 @@ const About = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Interests Section */}
         <div>
