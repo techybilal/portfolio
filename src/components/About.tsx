@@ -3,19 +3,19 @@ import React from 'react';
 
 const About = () => {
   const timeline = [
-    {
-      year: "2023 - 2025",
-      title: "Web Developer",
-      company: "Krishna Technologies",
-      description: "Worked as a web developer, building and maintaining responsive websites and web applications for clients across various industries. Collaborated with designers and backend teams to create seamless user experiences, optimized site performance, and implemented secure, scalable features using modern technologies like HTML, CSS, JavaScript, React.js."
-    },
-    {
-      year: "2025",
-      title: "Full Stack Web Developer",
-      company: "Freelance",
-      description: "A full stack web developer, building custom web applications for clients across various industries. I specialize in using React.js, Node.js, Express, and MongoDB to deliver responsive, scalable, and secure solutions. From front-end design to back-end development and deployment, I handle projects end-to-end while ensuring clear communication, timely delivery, and high client satisfaction."
-    }
-  ];
+  //   {
+  //     year: "2023 - 2025",
+  //     title: "Web Developer",
+  //     company: "Krishna Technologies",
+  //     description: "Worked as a web developer, building and maintaining responsive websites and web applications for clients across various industries. Collaborated with designers and backend teams to create seamless user experiences, optimized site performance, and implemented secure, scalable features using modern technologies like HTML, CSS, JavaScript, React.js."
+  //   },
+  //   {
+  //     year: "2025",
+  //     title: "Full Stack Web Developer",
+  //     company: "Freelance",
+  //     description: "A full stack web developer, building custom web applications for clients across various industries. I specialize in using React.js, Node.js, Express, and MongoDB to deliver responsive, scalable, and secure solutions. From front-end design to back-end development and deployment, I handle projects end-to-end while ensuring clear communication, timely delivery, and high client satisfaction."
+  //   }
+  // ];
 
   const interests = [
     { icon: "🤖", title: "AI Research", description: "Exploring new frontiers in machine learning" },
@@ -98,8 +98,8 @@ const About = () => {
         </div>
 
         {/* Timeline Section */}
-        <div className="mb-20">
-{/*           <h3 className="text-3xl font-bold text-gradient-cyan mb-12 text-center">Professional Journey</h3>
+        {/* <div className="mb-20">
+          <h3 className="text-3xl font-bold text-gradient-cyan mb-12 text-center">Professional Journey</h3>
           <div className="relative">
             <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-neon-blue to-neon-purple"></div>
             <div className="space-y-12">
