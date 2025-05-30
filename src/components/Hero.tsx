@@ -13,7 +13,7 @@ const Hero = () => {
   const downloadCV = () => {
     // Create a simple CV download link
     const link = document.createElement('a');
-    link.href = 'public/assets/Bilalwaris_#Dev.pdf';
+    link.href = '/assets/Bilalwaris_#Dev.pdf';
     link.download = 'Bilalwaris_Dev.pdf';
     link.click();
   };
