@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
           
           <div className="font-mono text-neon-cyan mb-8 text-lg md:text-xl animate-text-reveal" style={{ animationDelay: '0.3s' }}>
-            {'<'}<span className="text-white">Full-Stack Developer</span>{' />'}
+            {'<'}<span className="text-white">Full Stack AI-Native Developer</span>{' />'}
           </div>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto animate-text-reveal" style={{ animationDelay: '0.6s' }}>
